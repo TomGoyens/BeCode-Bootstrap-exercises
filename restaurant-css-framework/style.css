@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-size: 18px;
+  background-color: #00a745;
+}
+
+/*Header*/
+
+.logo{
+  height: 50px;
+}
+
+
+/*Jumbotron*/
+
+.Jumbo{
+  max-height: 400px;
+}
+
+.menufoto{
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.menu{
+  color: #fff;
+  text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 3px #000;
+}
+
+.pagination .active a{
+    background-color: red !important;
+    border-color: red !important;
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    transform: translate(-50%, -100%);
+}
